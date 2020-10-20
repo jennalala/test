@@ -1,0 +1,136 @@
+h1 { 
+    font-size: 3rem ;
+    color:rgb(50, 50, 192);
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+
+
+}
+/* HEADING */
+.jumbotron {
+    height: 25px;
+    padding-top: 15px;
+   
+}
+
+.card{
+    margin: 0 auto; 
+        float: none; 
+        margin-bottom: 10px; 
+        background-color: lightblue;
+        /* width: 35rem; */
+}
+
+/* SUBMIT YOUR CITY AND JOB CHOICES */
+#submit {
+    justify-content: center;
+    float: right;
+    
+}
+
+/* BACKGROUND IMAGE */
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+} 
+
+/* TARGETS THE CITY AND JOB DROPDOWN */
+.btn {
+    background-color: rgb(33, 158, 199);
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+
+.card-widget {
+    background-color: lightblue;
+    margin-top: 25px;
+    /* height: 100rem; */
+    
+}
+
+/* TARGETS THE BACKGROUND IMAGE */
+ body {
+    background-image: url("images/City.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+/* TARGETS THE CARD */
+.card-job {
+    background-color: lightblue;
+    font-family: 'Amatic SC', cursive;
+    margin-top: 25px;
+    font-size: 15px;
+    
+}
+ /* TARGETS ALL THE HEADINGS IN THE CARDS */
+.card-header{
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+}
+
+/* THE CARDS WITHIN THE JOB CARD */
+.card-body-info {
+ font-size: 15px;
+}
+
+.card-body-info {
+font-size: 15px;
+}
+
+/* TARGETS ALL THE CARDS */
+.card-body {
+    font-family: 'Amatic SC', cursive;
+    font-size: 15px;
+    color: white;
+}
+
+/* CARDS WITH IN THE JOB CARD */
+.card-job-list {
+    background-color: rgb(33, 158, 199);
+}
+
+/* LINK FOR JOBS */
+a {
+    color: greenyellow;
+}
+
+/* MODAL CSS */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    opacity: 1
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  #closeBtn {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: rgb(33, 158, 199);
+    color: white;
+    font-family: 'Amatic SC', cursive;
+  }
